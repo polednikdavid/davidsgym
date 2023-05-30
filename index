@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>David's Gym</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(51, 51, 51, 0.5);
+      padding: 10px;
+      color: #fff;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    h1 {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin-left: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(242, 242, 242, 0.5);
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #000;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    ul {
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: rgba(51, 51, 51, 0.5);
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">David's Gym</a></li>
+        <li><a href="clenstvi.html">Členství</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>David's Gym</h1>
+
+  <section>
+    <h2>Vítejte v David's Gymu!</h2>
+    <p>Jsme moderní fitness centrum nabízející širokou škálu cvičebních programů a služeb pro zlepšení kondice a zdraví. S našimi profesionálními trenéry a moderním vybavením získáte to nejlepší prostředí pro dosažení svých fitness cílů.</p>
+  </section>
+
+  <section>
+    <h2>Naše nabídka</h2>
+    <ul>
+      <li>Cvičební sály s moderním vybavením</li>
+      <li>Skupinové lekce (jóga, pilates, aerobic, spinning, zumba)</li>
+      <li>Posilovna s kardio zónou</li>
+      <li>Osobní trenérství</li>
+      <li>Saunový a relaxační prostor</li>
+      <li>Venkovní hřiště</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Získáte u nás</h2>
+    <ul>
+      <li>Individuální přístup a plánování cvičení</li>
+      <li>Kvalitní a odborné vedení trenérů</li>
+      <li>Možnost využití moderních technologií a fitness aplikací</li>
+      <li>Přátelskou atmosféru a setkání s dalšími fitness nadšenci</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2023 David's Gym. Všechna práva vyhrazena.
+  </footer>
+</body>
+</html>
+
+
