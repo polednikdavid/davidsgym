@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(51, 51, 51, 0.5);
+      padding: 10px;
+      color: #fff;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-left: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .contact-info {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: rgba(242, 242, 242, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: rgba(242, 242, 242, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+
+    footer {
+      background-color: rgba(51, 51, 51, 0.5);
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">David's Gym</a></li>
+        <li style="margin-left: auto;"><a href="clenstvi.html">Členství</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Kontaktujte nás</h1>
+
+  <div class="contact-info">
+    <p>Email: davidpolednik@davidsgym.com</p>
+    <p>Telefon: +420 787 227 772</p>
+  </div>
+
+  <form action="submit_form.php" method="post">
+    <label for="name">Jméno:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Telefon:</label>
+    <input type="text" id="phone" name="phone">
+
+    <label for="message">Zpráva:</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <input type="submit" value="Odeslat">
+  </form>
+
+  <footer>
+    &copy; 2023 David's Gym. Všechna práva vyhrazena.
+  </footer>
+</body>
+</html>
+
