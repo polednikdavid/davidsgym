@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Členství</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(51, 51, 51, 0.5);
+      padding: 10px;
+      color: #fff;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin-left: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .membership-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .membership-card {
+      width: 200px;
+      height: 400px;
+      padding: 20px;
+      background-color: rgba(242, 242, 242, 0.5);
+      border-radius: 5px;
+      margin-bottom: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-size: cover;
+      color: #000;
+    }
+
+    .membership-price {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">David's Gym</a></li>
+        <li><a href="clenstvi.html">Členství</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Členství v Fitness klubu</h1>
+
+  <h2>Nabídka permanentek:</h2>
+
+  <div class="membership-container">
+    <div class="membership-card" style="background-image: url('background1.jpg')">
+      <h3>Měsíční permanentka</h3>
+      <p class="membership-price">500 Kč</p>
+    </div>
+
+    <div class="membership-card" style="background-image: url('background1.jpg')">
+      <h3>Tříměsíční permanentka</h3>
+      <p class="membership-price">1200 Kč</p>
+    </div>
+
+    <div class="membership-card" style="background-image: url('background1.jpg')">
+      <h3>Půlroční permanentka</h3>
+      <p class="membership-price">2000 Kč</p>
+    </div>
+
+    <div class="membership-card" style="background-image: url('background1.jpg')">
+      <h3>Roční permanentka</h3>
+      <p class="membership-price">3500 Kč</p>
+    </div>
+
+    <div class="membership-card" style="background-image: url('background1.jpg')">
+      <h3>Jednodenní vstup</h3>
+      <p class="membership-price">100 Kč</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2023 David's Gym. Všechna práva vyhrazena.
+  </footer>
+</body>
+</html>
+
+
+
+
